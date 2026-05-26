@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FORGE // STAGE 1B — RIG + LASERS + LAYERED FIRE</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="stage"></div>
+  <canvas id="fx2d"></canvas>
+
+  <div class="hud top-left">
+    <span class="led" id="led"></span>
+    <span id="status">FORGE // STANDBY</span>
+  </div>
+  <div class="hud top-right" id="phase">PHASE — IDLE</div>
+  <div class="hud bot-left">STAGE 1B · rig + lasers + layered fire</div>
+  <div class="math-label mean" id="labelMu">μ</div>
+  <div class="math-label variance" id="labelSigma">σ<sup>2</sup></div>
+
+  <div class="hud bot-right">
+    <button id="sequence">SEQUENCE</button>
+    <button id="reset" class="ghost">RESET</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
